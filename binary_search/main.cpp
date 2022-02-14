@@ -31,7 +31,7 @@ int main() {
   int needle {};
   std::cin >> needle;
   std::cout << b.search(needle);
-  std::cout << "\nSearch Execution Count:" << b.getExecutionCount() << std::endl;
+  std::cout << "\nSearch Execution Count: " << b.getExecutionCount() << std::endl;
 
   delete v;
 
