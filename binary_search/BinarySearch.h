@@ -21,12 +21,12 @@ class BinarySearch {
   }
 
   bool search(const T needle) {
-    unsigned int low = 0;
-    unsigned int high = haystack.size();
+    unsigned int low {};
+    unsigned long high {haystack.size()};
     bool foundItem {};
     executionCount = 0;
 
-    int mid = -1;
+    int mid {-1};
 
     while (low < high || mid != 0) {
       executionCount++;
